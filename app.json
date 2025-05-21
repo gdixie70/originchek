@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "origincheck-app",
+    "slug": "origincheck-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "experimental": {
+      "newArchitecture": false
+    },
+    "entryPoint": "./AppEntry.js",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gdixie70.origincheckapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "package": "com.gdixie70.origincheckapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-barcode-scanner",
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7da706dc-99ab-44f2-9883-93a992c5fb0f"
+      }
+    }
+  }
+}

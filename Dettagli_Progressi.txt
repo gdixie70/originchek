@@ -1,0 +1,28 @@
+📅 Data: 13 aprile 2025
+🛠 Stato: Versione stabile e funzionante
+
+✅ Novità introdotte:
+Nuovo layout header con 3 righe:
+
+Marca (bold bianco)
+
+Fabbricato in con nome paese + bandiera
+
+Barcode (bold bianco)
+
+Allineamento a sinistra centrato su schermo
+
+Nome della nazione del campo manufacturing_places tradotto nella lingua del dispositivo
+
+Corretto problema di bandiere mancanti con normalizzazione dei nomi (es. "Italien" → "Italy")
+
+Introdotto file jsconfig.json per risolvere problemi di percorso relativi in VS Code
+
+Pulizia visiva e migliore leggibilità dei dati
+
+🧪 Test verificato con:
+Barcode: 8076809523547 (Pesto Barilla)
+
+Visualizzazione corretta di bandiera 🇮🇹 e paese "Italia"
+
+Sezione "Paesi di produzione" perfettamente allineata e coerente
